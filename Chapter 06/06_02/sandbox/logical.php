@@ -14,8 +14,11 @@
 			if ($a > $b) {
 				echo "a is larger than b";
 			}
-			if ($a < $b) {
+			else if ($a < $b) {
 				echo "a is not larger than b";
+			}
+			else {
+				echo "a is equal to b";
 			}
 
 		

@@ -6,13 +6,13 @@
 		<title>Hello World</title>
 	</head>
 	<body>
-    	<?
-			// Single line comments
-			# or this single line comment
-			/*  double line comments are written
-				like this so that you can keep typing
-				and typing.
-			*/
+		<?php
+		// single-line comments are like this
+		# or like this (less common)
+		/* double-line comments are written
+		   like this, so that you can keep typing
+			 and typing
+		*/
 		?>
 		<?php echo "Hello World!"; ?><br />
 		<?php echo "Hello" . " World!"; ?><br />

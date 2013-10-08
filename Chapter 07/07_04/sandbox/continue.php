@@ -3,11 +3,9 @@
 
 <html lang="en">
 	<head>
-		<title>Break</title>
+		<title>Continue</title>
 	</head>
 	<body>		
-		<?
-			
-		?>
+
 	</body>
 </html>
