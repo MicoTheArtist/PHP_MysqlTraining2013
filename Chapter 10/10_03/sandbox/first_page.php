@@ -11,7 +11,7 @@
 		<?php $id = 5; ?>
         <?php $company = "Johnson & Johnson"; ?>
 		
-		<a href="second_page.php?id=<?php echo urlencode($id); ?>&company=<?php echo urlencode($company); ?>"><?php echo $link_name; ?></a>
+		<a href="second_page.php?id=<?php echo rawurlencode($id); ?>&company=<?php echo urlencode($company); ?>"><?php echo $link_name; ?></a>
 		
         <!-- note we only use URL encodeing for the get requests and not post or session requests. Reason is that we are placing the values in the URL -->
 	</body>
